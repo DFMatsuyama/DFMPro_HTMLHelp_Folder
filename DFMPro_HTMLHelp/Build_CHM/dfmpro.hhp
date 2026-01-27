@@ -1,0 +1,38 @@
+[OPTIONS]
+Binary Index=Yes
+Compatibility=1.1 or later
+Contents file=dfmpro.hhc
+Default topic=Creo_Parametric\Whats_New_in_This_Release\DFMPro_Key_Enhancements.htm
+Title=DFMPro
+Compiled file=dfmpro.chm
+Full-text search=Yes
+Full text search stop list file=Fts_stop_list.stp
+Language=0x409
+Display compile notes=No
+Display compile progress=No
+Enhanced decompilation=No
+Error log file=_ErrorLog.Log
+
+[ALIAS]
+#include Alias.h
+ 
+[MAP]
+#include Map.h
+ 
+[FILES]
+Common\Additive_Manufacturing\Avoid_Sharp_Edges.htm
+Common\Additive_Manufacturing\faces_requiring_support.htm
+Common\Additive_Manufacturing\maximum_hole_size.htm
+Common\Additive_Manufacturing\Maximum_Print_Size.htm
+Common\Additive_Manufacturing\Mimimum_Gap_Bitween_Faces.htm
+Common\Additive_Manufacturing\Minimum_Wall_Thickness.htm
+Common\Additive_Manufacturing\Recommended_Angular_Tolerance.htm
+Common\Additive_Manufacturing\Recommended_Pin_Diameter_Additive_Manufacturing.htm
+Common\Additive_Manufacturing\Recommended_Text_Parameters.htm
+Common\Tubing\Tube_End_Mismatch.htm
+Common\Assembly\Fastener_Accessibility_Based_on_Fastening_Tool_Parameters.htm
+Common\Assembly\Hardware_Rationalization.htm
+Common\Assembly\recomm_thread_connection.htm
+Common/Getting_Started/DFMPro_Profile_Execution.htm
+Common/Getting_Started/Compare_Rule_Files.htm
+Common/Getting_Started/Sort_Order_Rule_Manager.htm
