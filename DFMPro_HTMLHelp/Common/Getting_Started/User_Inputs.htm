@@ -75,11 +75,24 @@
 <p><b><a href="Analysis_Region.htm">解析領域</a>:</b> 製造プロセスとして <i>Prismatic Mill</i> が選択されている場合に表示されます。種類は次の 2 つです:</p>
 </li>
 </ul>
-<ul>
+<ul><ul>
 <li><b>パーツ全体:</b> このオプションを選択すると、パーツ全体に対して解析が実行されます。</li>
 <li><b>選択領域:</b> このオプションを選択すると、選択した領域に対して解析が実行されます。</li>
+</ul></ul>
+
+<br>
+<ul>
+<li><b>Assembly Level（アセンブリレベル）：</b>このオプションは、製造プロセスとして Assembly（組立） が選択され、さらに DFMPro Settings において 「Execute Assembly Rules only on Top Level Assembly Parts」 チェックボックスが選択されている場合に表示されます。
+  以下の 2 種類があります。</li>
 </ul>
 
+<ul><ul>
+<li><p>Top-Level（トップレベル）：このオプションを選択すると、トップレベルのコンポーネントに対してのみ解析が実行されます。</p></li>
+<li><p>All-Level（すべてのレベル）：このオプションを選択すると、アセンブリ全体に対して解析が実行されます。</p></li>
+</ul></ul>
+
+
+<br>
 <ul>
 <li>
 <p><b>材料:</b> ドロップダウンリストから適切な材料を選択します。</p>
@@ -113,24 +126,17 @@
 <br>
 
 <ul>
-<li>
-<p><b>ライフサイクル:</b> ドロップダウンリストから製造のライフサイクル年を選択します。</p>
-</li>
-<li>
-<p><b>切断プロセス:</b> 既定の切断プロセスが表示されます。ドロップダウンリストから必要な切断プロセスを選択します。</p>
-</li>
-<li>
-<p><b>キャビティ数:</b> 既定では 1 が表示されます。ドロップダウンリストからキャビティ数を選択します。</p>
-</li>
-<li>
-<p><b>工具（ツーリング）コスト:</b></p>
-</li>
+<li><p><b>ライフサイクル:</b> ドロップダウンリストから製造のライフサイクル年を選択します。</p></li>
+<li><p><b>切断プロセス:</b> 既定の切断プロセスが表示されます。ドロップダウンリストから必要な切断プロセスを選択します。</p></li>
+<li><p><b>キャビティ数:</b> 既定では 1 が表示されます。ドロップダウンリストからキャビティ数を選択します。</p></li>
+<li><p><b>工具（ツーリング）コスト:</b></p></li>
 </ul>
-<ul>
+<ul><ul>
 <li><span style="font-weight: bold;">Automatic:</span> 入力に基づいてツーリングコストが自動計算されます。</li>
 <li><span style="font-weight: bold;">Manual:</span> ツーリングコストの入力値を手動で入力します。</li>
-</ul>
+</ul></ul>
 
+<br>
 <ul>
 <li>
 <p><b>バッチ数量:</b> 1 バッチで製造されるパーツ数を入力します。</p>
@@ -155,24 +161,26 @@
 <img alt="" border="1" src="../../assets/images/Common/image/User_Inputs_StockType_1.png"/>
 <img alt="" border="1" src="../../assets/images/Common/image/User_Inputs_StockType_2.png"/>
 </div>
-<p>数値の代わりに他の変数を入力しようとすると、DFMPro は警告として変数を赤色（RED）で表示し、それらは解析されません。</p>
+
+<ul class="note-body">
+<li><p>数値の代わりに他の変数を入力しようとすると、DFMPro は警告として変数を赤色（RED）で表示し、それらは解析されません。</p></li>
+</ul>
+
 <div style="text-align:center;">
 <img alt="" border="1" src="../../assets/images/Common/image/User_Inputs_StockType_3.png"/>
 </div>
 
 <ul>
-<li>
-<p><span style="font-weight: bold;"><a href="Assembly_Analysis_Selection.htm">アセンブリ解析</a></span>: 製造プロセスとして <span>Assembly</span> が選択されている場合に表示されます。種類は次の 2 つです:</p>
-</li>
+<li><p><span style="font-weight: bold;"><a href="Assembly_Analysis_Selection.htm">アセンブリ解析</a></span>: 製造プロセスとして <span>Assembly</span> が選択されている場合に表示されます。種類は次の 2 つです:</p></li>
 </ul>
-<ul>
+<ul><ul>
 <li><b>アセンブリ全体:</b> このオプションを選択すると、アセンブリ全体に対して解析が実行されます。</li>
 <li><b>事前選択コンポーネント:</b> このオプションを選択すると、選択したコンポーネントに対して解析が実行されます。</li>
-</ul>
+</ul></ul>
 
+<br>
 <ul>
-<li>
-<p><span style="font-weight: bold;">切断プロセス:</span> 製造プロセスとして <span>Sheet Metal</span> が選択されている場合にのみ表示されます。その他の必要入力は Prismatic Milling と同じです。切断プロセスは 4 種類あります: <i>Default</i>、<i>Water Jet</i>、<i>Laser</i>、<i>Plasma Cutting</i>。</p>
+<li><p><span style="font-weight: bold;">切断プロセス:</span> 製造プロセスとして <span>Sheet Metal</span> が選択されている場合にのみ表示されます。その他の必要入力は Prismatic Milling と同じです。切断プロセスは 4 種類あります: <i>Default</i>、<i>Water Jet</i>、<i>Laser</i>、<i>Plasma Cutting</i>。</p>
 <p>既定では、切断プロセスに <i>Water jet</i> が設定されています。ドロップダウンリストから必要な切断プロセスを選択します。</p></li>
 </ul>
 
