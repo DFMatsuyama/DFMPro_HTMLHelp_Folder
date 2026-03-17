@@ -37,10 +37,9 @@
     </div>
   </div>
   <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
 <h1>例のワークフロー - PLM 連携</h1>
-<br>
 <h2><b>前提条件</b></h2>
-<br>
 <p>詳細については、<a href="PLM_Integration_with_DFMPro.htm">DFMPro との PLM 連携</a>を参照してください。</p>
 <br>
 <h2>設計エンジニアのワークフロー</h2>
@@ -60,35 +59,28 @@
 <div style="text-align:center;">
   <img alt="" border="0" src="../../assets/images/Common/image/Creo_PLM_Integration_Without_Increment_Workflow.png" />
 </div>
+
 <br>
 <p>注記:</p>
 <p>この機能を有効にするには、DFMPro for Creo Parametric インストールガイド内の「DFX 結果レビューワークフロー」セクションを参照してください。</p>
 <br>
+
 <h2>例（基本ワークフロー）</h2>
-<br>
 <ol>
-  <li>
-    <p><strong><i>Creo Parametric</i></strong> を起動します。</p>
-  </li>
-  <li>
-    <p><strong><i>File</i></strong> メニューをクリックし、<strong><i>Check In</i></strong> オプションをクリックします。</p>
-  </li>
-  <li>
-    <p>表示されたメニューから <strong><i>Check Out</i></strong> を選択し、パーツを開きます。</p>
-  </li>
+  <li><p><strong><i>Creo Parametric</i></strong> を起動します。</p></li>
+  <li><p><strong><i>File</i></strong> メニューをクリックし、<strong><i>Check In</i></strong> オプションをクリックします。</p></li>
+  <li><p>表示されたメニューから <strong><i>Check Out</i></strong> を選択し、パーツを開きます。</p></li>
 </ol>
+
 <br>
 <div style="text-align:center;">
   <img alt="" border="1" src="../../assets/images/Common/image/Creo_PLM_Integration_Check_Out.png" />
 </div>
+
 <br>
 <ol start="4">
-  <li>
-    <p><img alt="" border="0" src="../../assets/images/Common/image/New_StartDFMPro_SW.bmp" /> <strong><i>Start DFMPro</i></strong> をクリックして、DFMPro ユーザーインターフェースを起動します。</p>
-  </li>
-  <li>
-    <p>必要なモジュールを選択し、設定を入力した後、DFMPro 解析を実行します。</p>
-  </li>
+  <li><p><img alt="" border="0" src="../../assets/images/Common/image/New_StartDFMPro_SW.bmp" /> <strong><i>Start DFMPro</i></strong> をクリックして、DFMPro ユーザーインターフェースを起動します。</p></li>
+  <li><p>必要なモジュールを選択し、設定を入力した後、DFMPro 解析を実行します。</p></li>
 </ol>
 <br>
 <div style="text-align:center;">
@@ -96,20 +88,22 @@
 </div>
 <br>
 <ol start="6">
-  <li>
-    <p><b>結果</b>を Windchill のパーツに添付するには:</p>
-  </li>
+  <li><p><b>結果</b>を Windchill のパーツに添付するには:</p></li>
 </ol>
-<ul>
+
+<ul><ul>
   <li>結果の場合: <strong><i>Export</i></strong> タブをクリックして結果をエクスポートします。</li>
-</ul>
+</ul></ul>
+
 <div style="text-align:center;">
   <img alt="" border="0" src="../../assets/images/Common/image/Creo_PLM_Integration_Export_Import.png" />
 </div>
 <br>
-<ul>
+
+<ul><ul>
   <li>レポートの場合: <img alt="" border="0" src="../../assets/images/Common/image/tb-report-btn.gif" /> を使用してレポートを生成し、添付したいレポートを選択します。</li>
-</ul>
+</ul></ul>
+
 <div style="text-align:center;">
   <img alt="" border="0" src="../../assets/images/Common/image/Creo_PLM_Integration_Generate_Report.png" />
 </div>
@@ -129,36 +123,32 @@
 </div>
 <br>
 <h2>PLM システムから結果をインポート</h2>
-<br>
 <p>DFMPro の結果がすでに PLM に存在し、ユーザーが PLM からモデルを開いて「Start DFMPro」をクリックした場合、<a href="../Getting_Started/DFMPro_Settings.htm#PLM_Integration">DFMPro 設定</a>で <a href="../Getting_Started/DFMPro_Settings.htm#PLM_Integration">Automatic</a> オプションが選択されていれば、結果は自動的にインポートされます。</p>
 <p><a href="../Getting_Started/DFMPro_Settings.htm#PLM_Integration">Automatic</a> オプションが選択されていない場合は、メニューから <i><a href="../Getting_Started/Export_Import_Results.htm">Import</a></i> オプションを使用して、DFMPro の結果を手動でインポートする必要があります。</p>
 <div style="text-align:center;">
   <img alt="" border="0" src="../../assets/images/Common/image/Creo_PLM_Integration_Export_Import.png" />
 </div>
+
 <br>
 <h2>DFMPro の結果を PLM に更新</h2>
-<br>
 <p>DFMPro では、モデルのバージョンをインクリメントせずに、結果およびレポートを PLM に更新することができます。</p>
+
 <br>
 <p>注記:</p>
 <p>PLM 設定の詳細については、<a href="mailto:dfmpro.support@hcl-software.com">dfmpro.support@hcl-software.com</a> までテクニカルサポートチームにお問い合わせください。</p>
+
 <br>
 <h4>DFMPro の結果およびレポートを PLM に更新する手順</h4>
-<br>
 <ol>
-  <li>
-    <p>PLM から <em><strong>モデル</strong></em> を開くと、DFMPro の結果をレビューできます。</p>
-  </li>
-  <li>
-    <p>DFMPro の結果をレビューし、画像のキャプチャ、コメントの追加、重要でない項目の無視などを行います。</p>
-  </li>
-  <li>
-    <p><img alt="" border="0" src="../../assets/images/Common/image/tb-report-btn.gif" /> を使用してレポートを生成し、<strong><i>Export</i></strong> ボタンをクリックして結果およびレポートを更新します。更新が成功すると、DFMPro は成功メッセージを表示します。</p>
-  </li>
+  <li><p>PLM から <em><strong>モデル</strong></em> を開くと、DFMPro の結果をレビューできます。</p></li>
+  <li><p>DFMPro の結果をレビューし、画像のキャプチャ、コメントの追加、重要でない項目の無視などを行います。</p></li>
+  <li><p><img alt="" border="0" src="../../assets/images/Common/image/tb-report-btn.gif" /> を使用してレポートを生成し、<strong><i>Export</i></strong> ボタンをクリックして結果およびレポートを更新します。更新が成功すると、DFMPro は成功メッセージを表示します。</p></li>
 </ol>
+
 <div style="text-align:center;">
   <img alt="" border="1" src="../../assets/images/Common/image/Creo_PLM_Integration_Report_Successful.png" />
 </div>
+
 <br>
 <p>注記:</p>
 <p>途中でモデルが変更された場合、DFMPro は結果の更新を停止します。モデル変更後に既存の結果と同期していない状態（DFMPro の背景が黄色）の場合、「Export」ボタンでは結果やレポートを更新できません。DFMPro はステータスメッセージでユーザーに通知します。</p>
