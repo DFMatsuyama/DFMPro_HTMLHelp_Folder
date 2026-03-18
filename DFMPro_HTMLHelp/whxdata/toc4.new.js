@@ -5,4 +5,4 @@
 {"name":"フライス加工モジュール(Prismatic Mill Module)","type":"item","tilePath":"","description":"","url":"Common/Multibody_Support/Prismatic_Mill_Module.htm"},
 {"name":"板金モジュール(Sheet Metal Module)","type":"item","tilePath":"","description":"","url":"Common/Multibody_Support/Sheet_Metal_Module.htm"},
 {"name":"その他のDFMProモジュール(Other DFMPro Modules)","type":"item","tilePath":"","description":"","url":"Common/Multibody_Support/Other_DFMPro_Modules.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

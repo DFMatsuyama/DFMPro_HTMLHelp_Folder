@@ -20,4 +20,4 @@
 {"name":"旋盤加工 (Turning)","type":"book","tilePath":"","key":"toc27"},
 {"name":"真空樹脂注入成形 (Vacuum Infusion)","type":"book","tilePath":"","key":"toc28"},
 {"name":"溶接 (Welding)","type":"book","tilePath":"","key":"toc29"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

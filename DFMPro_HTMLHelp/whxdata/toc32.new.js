@@ -15,4 +15,4 @@
 {"name":"旋盤部品 (Turned Part)","type":"item","tilePath":"","description":"","url":"Common/Tutorials/turned_part.htm"},
 {"name":"真空樹脂注入成形部品 (Vacuum Infusion Part)","type":"item","tilePath":"","description":"","url":"Common/Tutorials/Vacuum_Infusion_Tutorial.htm"},
 {"name":"溶接組立て (Welding Assembly)","type":"item","tilePath":"","description":"","url":"Common/Tutorials/welding_part.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

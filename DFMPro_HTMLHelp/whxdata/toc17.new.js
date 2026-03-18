@@ -22,4 +22,4 @@
 {"name":"肉厚チェック (Thickness Check)","type":"item","tilePath":"","description":"","url":"Common/General/thickness_check.htm"},
 {"name":"穴のネジ逃げ (Thread Relief for Hole)","type":"item","tilePath":"","description":"","url":"Common/General/thread_relief_for_hole.htm"},
 {"name":"推奨材料の使用 (Use Preferred Materials)","type":"item","tilePath":"","description":"","url":"Common/General/use_preferred_materials.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

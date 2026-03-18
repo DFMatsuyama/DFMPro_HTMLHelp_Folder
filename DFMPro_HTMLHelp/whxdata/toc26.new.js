@@ -7,4 +7,4 @@
 {"name":"チューブ配管曲げ半径と外径の比 (Tube Bend to OD Ratio)","type":"item","tilePath":"","description":"","url":"Common/Tubing/Tube_Bend_To_OD_Ratio.htm"},
 {"name":"チューブ配管端部の不一致 (Tube End Mismatch)","type":"item","tilePath":"","description":"","url":"Common/Tubing/Tube_End_Mismatch.htm"},
 {"name":"共通の曲げ半径を使用 (Use Common Bend Radius)","type":"item","tilePath":"","description":"","url":"Common/Tubing/Use_Common_Bend_radius.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

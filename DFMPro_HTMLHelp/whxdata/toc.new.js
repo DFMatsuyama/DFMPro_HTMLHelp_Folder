@@ -14,4 +14,4 @@
 {"name":"DFMProデータベース (DFMPro Database)","type":"book","tilePath":"","key":"toc31"},
 {"name":"チュートリアル (Tutorials)","type":"book","tilePath":"","key":"toc32"},
 {"name":"DFMPro FAQ (DFMPro FAQ)","type":"book","tilePath":"","key":"toc33"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

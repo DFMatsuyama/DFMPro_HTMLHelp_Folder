@@ -22,4 +22,4 @@
 {"name":"推奨シャンク長さ (Recommended Shank Length)","type":"item","tilePath":"","description":"","url":"Common/Assembly/Recommended_Shank_Length.htm"},
 {"name":"推奨されるネジ接続 (Recommended Thread Connection)","type":"item","tilePath":"","description":"","url":"Common/Assembly/recomm_thread_connection.htm"},
 {"name":"長穴と穴の位置合わせ (Slot to Hole Alignment)","type":"item","tilePath":"","description":"","url":"Common/Assembly/Slot_to_Hole_Alignment.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

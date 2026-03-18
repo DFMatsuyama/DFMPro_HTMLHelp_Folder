@@ -5,4 +5,4 @@
 {"name":"最小曲げ半径 (Minimum Bend Radius)","type":"item","tilePath":"","description":"","url":"Common/Sheet_Metal_Forming/Minimum_Bend_Radius.htm"},
 {"name":"最小板厚 (Minimum Sheet Thickness)","type":"item","tilePath":"","description":"","url":"Common/Sheet_Metal_Forming/Minimum_Sheet_Thickness.htm"},
 {"name":"推奨穴径 (Recommended Hole Diameter)","type":"item","tilePath":"","description":"","url":"Common/Sheet_Metal_Forming/Recommended_Hole_Diameter.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

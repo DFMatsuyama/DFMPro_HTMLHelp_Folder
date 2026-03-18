@@ -38,4 +38,4 @@
 {"name":"金型加工用リブパラメータ (Rib Parameters for Mold Machining)","type":"item","tilePath":"","description":"","url":"Common/Injection_Molding/Rib_Parameters_for_Mold_Machining.htm"},
 {"name":"長尺コア用推奨インターロックパラメータ (Recommended Interlock Parameters for Long Cores)","type":"item","tilePath":"","description":"","url":"Common/Injection_Molding/Recommended_Interlock_Parameters_for_Long_Cores.htm"},
 {"name":"長尺コア用サポート穴の最大間隔 (Maximum Support Hole Distance for Long Cores)","type":"item","tilePath":"","description":"","url":"Common/Injection_Molding/Maximum_Support_Hole_Distance_for_Long_Cores.htm"},];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

@@ -11,4 +11,4 @@
 {"name":"推奨リブ寸法 (Recommended Rib Parameter)","type":"item","tilePath":"","description":"","url":"Common/Die_Casting/Recommended_Rib_Parameters.htm"},
 {"name":"急激な製品肉厚変化 (Sudden Wall Thickness Variation)","type":"item","tilePath":"","description":"","url":"Common/Die_Casting/Sudden_Wall_Thickness.htm"},
 {"name":"製品肉厚の均一性 (Uniform Wall Thickness)","type":"item","tilePath":"","description":"","url":"Common/Die_Casting/Uniform_Wall_Thickness.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

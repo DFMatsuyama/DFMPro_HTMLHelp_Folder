@@ -7,7 +7,7 @@
 {"name":"アセンブリモジュールを用いたマルチプロセス解析(Multi-process analysis with Assembly module)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Multiprocess_analysis_with_Assembly_modules.htm"},
 {"name":"実行するルールの選択(Selecting Rules to Run)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/selecting_rules_to_run.htm"},
 {"name":"ルールの構成(Configuring Rules)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/configuring_rules.htm"},
-{"name":"ルールファイルの比較(Compare Rule Files","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Compare_Rule_Files.htm"},
+{"name":"ルールファイルの比較(Compare Rule Files)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Compare_Rule_Files.htm"},
 {"name":"ソート順(Sort Order)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Sort_Order_Rule_Manager.htm"},
 {"name":"ルール入力単位(Rule Input Units)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/rule_input_units.htm"},
 {"name":"ルールモジュール登録ダイアログボックス(Register Rule Module Dialog Box)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/register_rule_modules.htm"},
@@ -16,7 +16,7 @@
 {"name":"カスタムメッセージ(Custom Message)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Custom_Message.htm"},
 {"name":"エンティティ選択(Entity Selection)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Entity_Selection.htm"},
 {"name":"複数プロセスによる解析(Analysis with Multiple Processes)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Analysis_with_Multiple_Processes.htm"},
-{"name":"トップレベルアセンブリ解析)(Top-Level Assembly Analysis)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Top_Level_Assembly_Analysis.htm"},
+{"name":"トップレベルアセンブリ解析(Top-Level Assembly Analysis)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Top_Level_Assembly_Analysis.htm"},
 {"name":"ストック形状(Stock Shape)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Stock_Shape.htm"},
 {"name":"加工セットアップ(Machining Setup)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Machining_Setup.htm"},
 {"name":"組立加工(Assembly Machining)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Assembly_Machining.htm"},
@@ -32,4 +32,4 @@
 {"name":"コスト結果(Cost Results)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Cost_Results.htm"},
 {"name":"レポート(Report)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/generate_report.htm"},
 {"name":"結果のインポート／エクスポート(Import/Export Results)","type":"item","tilePath":"","description":"","url":"Common/Getting_Started/Export_Import_Results.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

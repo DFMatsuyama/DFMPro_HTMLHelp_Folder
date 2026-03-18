@@ -9,4 +9,4 @@
 {"name":"推奨ピン径 (Recommended Pin Diameter)","type":"item","tilePath":"","description":"","url":"Common/Additive_Manufacturing/Recommended_Pin_Diameter_Additive_Manufacturing.htm"},
 {"name":"刻印推奨寸法 (Recommended Text Parameters)","type":"item","tilePath":"","description":"","url":"Common/Additive_Manufacturing/Recommended_Text_Parameters.htm"},
 {"name":"面間の厚さ (Thickness Between Faces)","type":"item","tilePath":"","description":"","url":"Common/Additive_Manufacturing/Thickness_Bet_Faces.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

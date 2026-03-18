@@ -17,4 +17,4 @@
 {"name":"鋭利な内側コーナー (Sharp Internal Corners)","type":"item","tilePath":"","description":"","url":"Common/Milling/sharp_internal_corners.htm"},
 {"name":"切削加工面の表面粗さ (Surface Finish for Machined Faces)","type":"item","tilePath":"","description":"","url":"Common/Milling/Surface_Finish_for_Machined_Faces.htm"},
 {"name":"工具アクセス性 (Tool Accessibility)","type":"item","tilePath":"","description":"","url":"Common/Milling/tool_accessibility.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

@@ -10,4 +10,4 @@
 {"name":"穴に対する推奨位置公差 (Recommended Position Tolerance for Hole)","type":"item","tilePath":"","description":"","url":"Common/Drilling/Recommended_Position_Tolerance_for_Hole.htm"},
 {"name":"穴に対する推奨交差 (Recommended Tolerances for Holes)","type":"item","tilePath":"","description":"","url":"Common/Drilling/Recommended_Tolerances_for_Holes.htm"},
 {"name":"標準穴径 (Standard Hole Sizes)","type":"item","tilePath":"","description":"","url":"Common/Drilling/standard_hole_sizes.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

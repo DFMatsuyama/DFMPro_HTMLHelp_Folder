@@ -5,4 +5,4 @@
 {"name":"内側コーナー最小半径 (Minimum Internal Corner Radius)","type":"item","tilePath":"","description":"","url":"Common/Turning/minimum_internal_corner_radius.htm"},
 {"name":"外径輪郭の逃げ (OD Profile Relief)","type":"item","tilePath":"","description":"","url":"Common/Turning/od_profile_relief.htm"},
 {"name":"対称軸方向長穴 (Symmetrical Axial Slots)","type":"item","tilePath":"","description":"","url":"Common/Turning/symmetrical_axial_slots.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();

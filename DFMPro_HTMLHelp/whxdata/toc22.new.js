@@ -98,4 +98,4 @@
 {"name":"板金モデリング推奨事項(Sheet Metal Modeling Practice)","type":"item","tilePath":"","description":"","url":"Common/Sheet_Metal/Sheet_Metal_Modeling_Practice.htm"},
 {"name":"ティアドロップヘム(Tear Drop Hem)","type":"item","tilePath":"","description":"","url":"Common/Sheet_Metal/tear_drop.htm"},
 {"name":"共通曲げ半径の使用(Use Common Bend Radius)","type":"item","tilePath":"","description":"","url":"Common/Sheet_Metal/Use_Common_Bend_Radius.htm"}];    
-window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
+window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:false });    })();
